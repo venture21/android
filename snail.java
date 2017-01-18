@@ -33,7 +33,7 @@ public class snail {
         
         // 배열에 입력되는 값 
         int numData=1;
-        
+       
         while(true){
         	// x축의 방향 
         	for(int cnt=0;cnt<size;cnt++){
