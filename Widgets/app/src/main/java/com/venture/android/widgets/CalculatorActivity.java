@@ -232,7 +232,6 @@ public class CalculatorActivity extends AppCompatActivity implements View.OnClic
                 inc++;
             }
 
-
             if(debug) {
 
                 for (Object str : list) {
