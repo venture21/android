@@ -30,6 +30,8 @@ public class CalculatorActivity extends AppCompatActivity implements View.OnClic
     TextView preview;
     TextView result;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

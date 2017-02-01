@@ -8,7 +8,9 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     Button btnGrid;
-    Button calc;
+    Button btnCalc;
+    Button btnWidget;
+    Button btnUnit;
 
     // 1. 위젯을 정의한다.
     @Override
@@ -17,12 +19,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         setContentView(R.layout.activity_main);
         // 2. 정의된 위젯변수에 xml의 위젯 id를 가져와서 담아준다.
-        btnGrid = (Button) findViewById(R.id.btnGrid);
-        calc = (Button) findViewById(R.id.btnCal);
+        btnGrid   = (Button) findViewById(R.id.btnGrid);
+        btnCalc   = (Button) findViewById(R.id.btnCal);
+        btnWidget = (Button) findViewById(R.id.btnWidget);
+        btnUnit   = (Button) findViewById(R.id.btnUnit);
+
         // 3. 변수(위젯)을 리스너에 달아준다.
         btnGrid.setOnClickListener(this);
-        calc.setOnClickListener(this);
-
+        btnCalc.setOnClickListener(this);
+        btnWidget.setOnClickListener(this);
+        btnUnit.setOnClickListener(this);
     }
 
     // onCreate함수 안에서 정의할 수도 있으나 코드의 간결성을 위해 분리
@@ -43,6 +49,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 // 대상이 되는 컴포넌트
                 startActivity(intent2);
                 break;
+
+            case R.id.btnWidget:
+                Intent intent3 = new Intent(this, WidgetActivity.class);
+                // 대상이 되는 컴포넌트
+                startActivity(intent3);
+                break;
+
+            case R.id.btnUnit:
+                Intent intent4 = new Intent(this, UnitActivity.class);
+                // 대상이 되는 컴포넌트
+                startActivity(intent4);
+                break;
+
         }
     }
 }
