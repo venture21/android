@@ -61,7 +61,7 @@
             android:layout_alignParentStart="true">
 
             <Spinner
-                android:layout_width="135dp"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/spLength1" />
 
@@ -74,7 +74,7 @@
                 android:layout_weight="1" />
 
             <Spinner
-                android:layout_width="135dp"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/spLength2" />
         </LinearLayout>
@@ -89,11 +89,12 @@
             android:layout_alignParentStart="true">
 
             <EditText
-                android:inputType="numberDecimal"
-                android:ems="10"
+                android:inputType="text"
                 android:id="@+id/etLengthIn"
-                android:layout_width="135dp"
-                android:layout_height="wrap_content" />
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:hint="0"
+                android:maxLength="8" />
 
             <TextView
                 android:text="="
@@ -105,8 +106,6 @@
                 android:gravity="center" />
 
             <TextView
-                android:text="TextView"
-                android:layout_width="135dp"
                 android:id="@+id/tvLengthOut"
 
                 android:layout_height="40dp"
@@ -114,7 +113,9 @@
                 android:textAlignment="viewStart"
                 android:layout_centerVertical="true"
                 android:layout_marginBottom="10dp"
-                android:elevation="22dp" />
+                android:elevation="22dp"
+                android:hint="0"
+                android:layout_width="142dp" />
 
         </LinearLayout>
 
@@ -129,30 +130,30 @@
 
             <TextView
                 android:text="mm"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue11"
-                android:textAlignment="textEnd"
-                android:textSize="14sp"
-                android:gravity="center" />
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:layout_width="115dp" />
 
             <TextView
                 android:text="cm"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue12"
-                android:textAlignment="textEnd"
-                android:textSize="14sp"
-                android:gravity="center" />
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:layout_width="115dp" />
 
             <TextView
                 android:text="m"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue13"
-                android:textAlignment="textEnd"
-                android:textSize="14sp"
-                android:gravity="center" />
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:layout_width="115dp" />
 
         </LinearLayout>
 
@@ -167,30 +168,30 @@
 
             <TextView
                 android:text="km"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue14"
-                android:textAlignment="textEnd"
-                android:textSize="14sp"
-                android:gravity="center" />
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:layout_width="115dp" />
 
             <TextView
                 android:text="in"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue15"
-                android:textAlignment="textEnd"
-                android:textSize="14sp"
-                android:gravity="center" />
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:layout_width="115dp" />
 
             <TextView
                 android:text="ft"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue16"
-                android:textAlignment="textEnd"
-                android:textSize="14sp"
-                android:gravity="center" />
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:layout_width="115dp" />
         </LinearLayout>
     </LinearLayout>
 
@@ -218,7 +219,7 @@
             android:layout_alignParentStart="true">
 
             <Spinner
-                android:layout_width="135dp"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/spArea1" />
 
@@ -231,7 +232,7 @@
                 android:layout_weight="1" />
 
             <Spinner
-                android:layout_width="135dp"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/spArea2" />
         </LinearLayout>
@@ -249,8 +250,10 @@
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/etAreaIn"
-                android:layout_width="135dp"
-                android:layout_height="wrap_content" />
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:hint="0"
+                android:maxLength="8" />
 
             <TextView
                 android:text="="
@@ -263,7 +266,6 @@
 
             <TextView
                 android:text="TextView"
-                android:layout_width="135dp"
                 android:id="@+id/tvAreaOut"
 
                 android:layout_height="40dp"
@@ -271,7 +273,8 @@
                 android:textAlignment="viewStart"
                 android:layout_centerVertical="true"
                 android:layout_marginBottom="10dp"
-                android:elevation="22dp" />
+                android:elevation="22dp"
+                android:layout_width="142dp" />
 
         </LinearLayout>
 
@@ -286,30 +289,30 @@
 
             <TextView
                 android:text="m2"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue21"
-                android:textAlignment="textEnd"
+                android:textAlignment="center"
                 android:textSize="14sp"
-                android:gravity="center" />
+                android:gravity="center"
+                android:layout_width="115dp" />
 
             <TextView
                 android:text="a"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue22"
-                android:textAlignment="textEnd"
+                android:textAlignment="center"
                 android:textSize="14sp"
-                android:gravity="center" />
+                android:gravity="center"
+                android:layout_width="115dp" />
 
             <TextView
                 android:text="ha"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue23"
-                android:textAlignment="textEnd"
+                android:textAlignment="center"
                 android:textSize="14sp"
-                android:gravity="center" />
+                android:gravity="center"
+                android:layout_width="115dp" />
 
         </LinearLayout>
 
@@ -324,30 +327,30 @@
 
             <TextView
                 android:text="km2"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue24"
-                android:textAlignment="textEnd"
+                android:textAlignment="center"
                 android:textSize="14sp"
-                android:gravity="center" />
+                android:gravity="center"
+                android:layout_width="115dp" />
 
             <TextView
                 android:text="ft2"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue25"
-                android:textAlignment="textEnd"
+                android:textAlignment="center"
                 android:textSize="14sp"
-                android:gravity="center" />
+                android:gravity="center"
+                android:layout_width="115dp" />
 
             <TextView
                 android:text="yd2"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue26"
-                android:textAlignment="textEnd"
+                android:textAlignment="center"
                 android:textSize="14sp"
-                android:gravity="center" />
+                android:gravity="center"
+                android:layout_width="115dp" />
         </LinearLayout>
     </LinearLayout>
 
@@ -374,7 +377,7 @@
             android:layout_alignParentStart="true">
 
             <Spinner
-                android:layout_width="135dp"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/spWeight1" />
 
@@ -387,7 +390,7 @@
                 android:layout_weight="1" />
 
             <Spinner
-                android:layout_width="135dp"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/spWeight2" />
         </LinearLayout>
@@ -405,8 +408,10 @@
                 android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/etWeightIn"
-                android:layout_width="135dp"
-                android:layout_height="wrap_content" />
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:hint="0"
+                android:maxLength="8" />
 
             <TextView
                 android:text="="
@@ -419,7 +424,6 @@
 
             <TextView
                 android:text="TextView"
-                android:layout_width="135dp"
                 android:id="@+id/tvWeightOut"
 
                 android:layout_height="40dp"
@@ -427,7 +431,8 @@
                 android:textAlignment="viewStart"
                 android:layout_centerVertical="true"
                 android:layout_marginBottom="10dp"
-                android:elevation="22dp" />
+                android:elevation="22dp"
+                android:layout_width="142dp" />
 
         </LinearLayout>
 
@@ -442,30 +447,30 @@
 
             <TextView
                 android:text="mg"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue31"
-                android:textAlignment="textEnd"
+                android:textAlignment="center"
                 android:textSize="14sp"
-                android:gravity="center" />
+                android:gravity="center"
+                android:layout_width="115dp" />
 
             <TextView
                 android:text="g"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue32"
-                android:textAlignment="textEnd"
+                android:textAlignment="center"
                 android:textSize="14sp"
-                android:gravity="center" />
+                android:gravity="center"
+                android:layout_width="115dp" />
 
             <TextView
                 android:text="kg"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue33"
-                android:textAlignment="textEnd"
+                android:textAlignment="center"
                 android:textSize="14sp"
-                android:gravity="center" />
+                android:gravity="center"
+                android:layout_width="115dp" />
 
         </LinearLayout>
 
@@ -480,30 +485,30 @@
 
             <TextView
                 android:text="t"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue34"
-                android:textAlignment="textEnd"
+                android:textAlignment="center"
                 android:textSize="14sp"
-                android:gravity="center" />
+                android:gravity="center"
+                android:layout_width="115dp" />
 
             <TextView
                 android:text="kt"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue35"
-                android:textAlignment="textEnd"
+                android:textAlignment="center"
                 android:textSize="14sp"
-                android:gravity="center" />
+                android:gravity="center"
+                android:layout_width="115dp" />
 
             <TextView
                 android:text="gr"
-                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:id="@+id/tvValue35"
-                android:textAlignment="textEnd"
+                android:textAlignment="center"
                 android:textSize="14sp"
-                android:gravity="center" />
+                android:gravity="center"
+                android:layout_width="115dp" />
         </LinearLayout>
     </LinearLayout>
 
